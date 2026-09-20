@@ -71,3 +71,4 @@ Code contributions are not accepted during this Alpha phase.
 - [Privacy for Alpha Testers](PRIVACY_ALPHA.md)
 - [Security Policy](SECURITY.md)
 - [Changelog](CHANGELOG.md)
+- [Credits](CREDITS.md)
