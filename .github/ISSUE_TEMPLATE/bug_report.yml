@@ -1,0 +1,117 @@
+name: Bug Report
+description: Report a reproducible AtherKeyring Alpha bug.
+title: "[Bug]: "
+labels: ["bug", "needs-reproduction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing AtherKeyring Alpha.
+
+        Do not attach passwords, tokens, private documents, signing files, keystores, or sensitive information.
+  - type: input
+    id: ather_version
+    attributes:
+      label: AtherKeyring version
+      placeholder: "Example: 0.3.0-alpha8-r2-tester / versionCode 46"
+    validations:
+      required: true
+  - type: input
+    id: phone
+    attributes:
+      label: Phone
+      placeholder: "Example: Pixel 8, Galaxy S23, Redmi Note..."
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version
+      placeholder: "Example: Android 14"
+    validations:
+      required: true
+  - type: input
+    id: game_app
+    attributes:
+      label: Game/app where it happened
+      placeholder: "Example: Don't Starve, Stardew Valley, home screen..."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open...\n2. Select...\n3. Pull..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: dropdown
+    id: orientation
+    attributes:
+      label: Orientation
+      options:
+        - Portrait
+        - Landscape
+        - Both
+        - Rotation change
+        - Unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: capture_mode
+    attributes:
+      label: Camera/Screenshot mode
+      options:
+        - Camera
+        - Screenshot
+        - Neither
+        - Both
+        - Unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: haptics
+    attributes:
+      label: AtherKeyring haptics
+      options:
+        - "ON"
+        - "OFF"
+        - Unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: always
+    attributes:
+      label: Does it happen every time?
+      options:
+        - "Yes"
+        - "No"
+        - Sometimes
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshot/video if possible
+      description: Attach only media that does not reveal private or sensitive information.
+    validations:
+      required: false
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: I did not attach passwords, tokens, private documents, signing files, keystores, or sensitive information.
+          required: true

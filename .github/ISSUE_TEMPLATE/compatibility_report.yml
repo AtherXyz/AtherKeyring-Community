@@ -1,0 +1,145 @@
+name: Game/App Compatibility Report
+description: Report how AtherKeyring behaves on a specific phone and game/app.
+title: "[Compatibility]: "
+labels: ["compatibility", "game-specific"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Compatibility reports help build the future matrix. A report is not an automatic promise of official support.
+  - type: input
+    id: ather_version
+    attributes:
+      label: AtherKeyring version
+      placeholder: "Example: 0.3.0-alpha8-r2-tester / versionCode 46"
+    validations:
+      required: true
+  - type: input
+    id: phone
+    attributes:
+      label: Phone
+      placeholder: "Example: Pixel 8, Galaxy S23, Redmi Note..."
+    validations:
+      required: true
+  - type: input
+    id: manufacturer
+    attributes:
+      label: Manufacturer
+      placeholder: "Example: Google, Samsung, Xiaomi..."
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version
+      placeholder: "Example: Android 14"
+    validations:
+      required: true
+  - type: input
+    id: game_app
+    attributes:
+      label: Game/app
+      placeholder: "Example: Terraria"
+    validations:
+      required: true
+  - type: input
+    id: game_version
+    attributes:
+      label: Game/app version
+      placeholder: "If known"
+    validations:
+      required: true
+  - type: dropdown
+    id: orientation
+    attributes:
+      label: Orientation tested
+      options:
+        - Portrait
+        - Landscape
+        - Both
+        - Unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: game_haptics
+    attributes:
+      label: Game/app haptics
+      options:
+        - "Yes"
+        - "No"
+        - Unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: ather_haptics
+    attributes:
+      label: AtherKeyring haptics
+      options:
+        - "ON"
+        - "OFF"
+        - Unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: overlay
+    attributes:
+      label: Overlay appears correctly
+      options:
+        - "Yes"
+        - "No"
+        - Partially
+    validations:
+      required: true
+  - type: dropdown
+    id: touch
+    attributes:
+      label: Touch loss/interception
+      options:
+        - "No touch problems"
+        - "Minor issues"
+        - "Major issues"
+        - "Not sure"
+    validations:
+      required: true
+  - type: dropdown
+    id: camera
+    attributes:
+      label: Camera
+      options:
+        - Works
+        - Fails
+        - Not tested
+    validations:
+      required: true
+  - type: dropdown
+    id: screenshot
+    attributes:
+      label: Screenshot
+      options:
+        - Works
+        - Fails
+        - Not tested
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Observations
+    validations:
+      required: false
+  - type: textarea
+    id: video
+    attributes:
+      label: Optional video
+      description: Attach only media that does not reveal private or sensitive information.
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: I understand this report does not automatically become a promise of official support.
+          required: true
+        - label: I did not attach passwords, tokens, private documents, signing files, keystores, or sensitive information.
+          required: true

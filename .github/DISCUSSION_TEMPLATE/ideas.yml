@@ -1,0 +1,27 @@
+title: "[Idea]: "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are welcome, but a suggestion does not imply implementation.
+        Accepted ideas may become Issues only after they are evaluated and delimited.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: What would you like AtherKeyring to do?
+    validations:
+      required: true
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Why would this help?
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Any compatibility, privacy, or gameplay risks?
+    validations:
+      required: false

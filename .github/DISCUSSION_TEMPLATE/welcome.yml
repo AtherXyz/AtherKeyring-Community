@@ -1,0 +1,20 @@
+title: "Welcome to AtherKeyring Alpha"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome!
+
+        AtherKeyring is an experimental Android floating keychain for games and other apps.
+
+        Ideas are welcome, but a suggestion does not imply implementation. Please do not post private data. Concrete reproducible bugs and compatibility reports should go to Issues.
+
+        Useful topics:
+
+        - Announcements
+        - Ideas
+        - Mini Office
+        - Skins & Customization
+        - Game Compatibility
+        - Questions
+        - Show Your Setup
