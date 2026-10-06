@@ -11,7 +11,7 @@ body:
     id: ather_version
     attributes:
       label: AtherKeyring version
-      placeholder: "Example: 0.3.0-alpha8-r2-tester / versionCode 46"
+      placeholder: "Example: 0.5.0-alpha1-tester / versionCode 110"
     validations:
       required: true
   - type: input

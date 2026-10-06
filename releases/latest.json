@@ -1,0 +1,14 @@
+{
+  "versionName": "0.5.0-alpha1-tester",
+  "versionCode": 110,
+  "package": "com.ather.keyring.integration",
+  "date": "2026-10-06",
+  "channel": "alpha-testers",
+  "prerelease": true,
+  "release": "https://github.com/AtherXyz/AtherKeyring-Community/releases/tag/v0.5.0-alpha1-tester",
+  "download": "https://github.com/AtherXyz/AtherKeyring-Community/releases/download/v0.5.0-alpha1-tester/AtherKeyring_Integracion_0.5.0_alpha1_v110_20261006.apk",
+  "file": "AtherKeyring_Integracion_0.5.0_alpha1_v110_20261006.apk",
+  "sizeBytes": 45824583,
+  "sha256": "5ca5ade6d0c9de49d45e7c14a2c9736a5f68e9061c0d8f5b16187133b5eda7ed",
+  "checkpoint": "Ather accepted after testing; full device matrix remains open"
+}

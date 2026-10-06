@@ -1,66 +1,51 @@
-# Alpha Testing
+[Inicio](README.md) · [Descargar](DOWNLOAD.md) · [Instalar](ALPHA_TESTING.md) · [Versiones](VERSIONS.md) · [Reportar un error](https://github.com/AtherXyz/AtherKeyring-Community/issues/new?template=bug_report.yml)
 
-AtherKeyring Alpha is for testers who are willing to try an unfinished Android overlay on real devices and games.
+# Instalar y probar
 
-## Before installing
+## Instalación
 
-- Use only APKs linked from official AtherKeyring community posts or releases.
-- Check the version name, version code, date, and SHA-256 when they are published.
-- The Alpha build is expected to expire after 7 days.
-- Do not install APKs reposted by unknown third parties.
+1. Descarga la APK desde [Descargar](DOWNLOAD.md) y comprueba la tabla de actualización.
+2. Abre el archivo en Android. Si lo pide, permite instalar desde el navegador o gestor de archivos usado.
+3. Si tienes integración 109, instala como actualización **sin desinstalar ni borrar datos**.
+4. Abre **AtherKeyring Integración 0.5.0**.
+5. En el libro entra en **Ajustes → Más ajustes → General y permisos → Permitir capa flotante**.
+6. Concede «mostrar sobre otras aplicaciones» y regresa al libro. Pulsa **Activar llavero**.
 
-## Public APK rule
+Android solicita los permisos correspondientes cuando utilizas cámara, captura y notificaciones.
+La captura de pantalla usa el consentimiento visible de Android. Puedes detener el llavero desde
+**Ajustes → Más ajustes → General y permisos → Detener llavero**.
 
-No public APK is available from this repository until a build is explicitly marked:
+## Primera prueba
 
-`PHYSICALLY APPROVED FOR PUBLIC ALPHA`
+| Paso | Comprueba |
+| --- | --- |
+| Abrir el Índice | Notas, Colección, Tienda y Ajustes llevan a su menú |
+| Notas → Mini Office | Puedes escribir y guardar por el gesto existente hacia la derecha |
+| Volver a Notas | La entrada guardada aparece y se puede reabrir |
+| Colección | Equipar modifica el llavero A/B seleccionado |
+| Tienda | Los créditos son locales de prueba; un desbloqueo no se cobra dos veces |
+| Ajustes | Los cambios se conservan al volver al libro |
+| Arrastrar una página | No compra ni equipa accidentalmente al cancelar un toque |
 
-A successful build, emulator run, or Waydroid check is not the same as physical approval.
+Para exportar notas, crea una carpeta llamada **AtherKeyring** en el almacenamiento interno y
+selecciónala cuando el selector del sistema la solicite. No necesitas esa carpeta para recorrer los menús.
 
-## What to test
+## Antes de reportar
 
-- Overlay visibility over games/apps.
-- Whether native game touch controls still work.
-- Orientation changes.
-- Keychain movement and sensor response.
-- Camera Mode.
-- Screenshot Mode.
-- Mini Office note saving/trash/preview flows.
-- Haptics and sound behavior.
-- Keyboard interactions.
+Consulta [Problemas conocidos](KNOWN_ISSUES.md). Indica versión/código, modelo de teléfono,
+versión Android, pasos, resultado esperado y lo que ocurrió. Aclara si fue instalación nueva
+o actualización y si el error sucede siempre. Usa contenido de prueba, sin datos personales.
 
-## What to report
+[**Reportar un error**](https://github.com/AtherXyz/AtherKeyring-Community/issues/new?template=bug_report.yml) · [Reportar compatibilidad](https://github.com/AtherXyz/AtherKeyring-Community/issues/new?template=compatibility_report.yml) · [Preguntas e ideas](https://github.com/AtherXyz/AtherKeyring-Community/discussions)
 
-Use Issues for reproducible bugs and compatibility reports.
+No adjuntes contraseñas, tokens, notas privadas, documentos ni notificaciones sensibles.
+[Privacidad](PRIVACY_ALPHA.md) · [Reporte privado de seguridad](SECURITY.md).
 
-Use Discussions for questions, ideas, skins, setup photos, and general feedback.
+## Caducidad y estado
 
-Please include:
+La alpha caduca siete días después del primer inicio de su instalación. Actualizar la integración
+no reinicia el plazo. Consulta [Descargar](DOWNLOAD.md) si ya utilizabas una versión anterior.
 
-- phone model;
-- Android version;
-- game/app name and version;
-- AtherKeyring version;
-- orientation;
-- haptics ON/OFF;
-- steps to reproduce;
-- screenshot/video if possible.
-
-## What not to upload
-
-Do not attach:
-
-- passwords;
-- tokens;
-- private documents;
-- signing keys;
-- keystores;
-- sensitive notifications;
-- banking, ID, or personal files.
-
-## Validation levels
-
-- Build/test PASS: technical build checks passed.
-- Waydroid/emulator check: useful for visual inspection only.
-- Physical validation: tested on a real Android phone.
-- Public Alpha approved: explicitly approved by the owner for public tester distribution.
+La selección de Ather como checkpoint acredita su prueba y aceptación de esta integración.
+No significa que todos los teléfonos, gestos y combinaciones de permisos estén certificados.
+Las comprobaciones automáticas y de compilación son independientes de las pruebas físicas.

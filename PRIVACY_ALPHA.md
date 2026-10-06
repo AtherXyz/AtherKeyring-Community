@@ -1,28 +1,23 @@
-# Privacy for Alpha Testers
+[Inicio](README.md) · [Descargar](DOWNLOAD.md) · [Instalar](ALPHA_TESTING.md) · [Versiones](VERSIONS.md) · [Reportar un error](https://github.com/AtherXyz/AtherKeyring-Community/issues/new?template=bug_report.yml)
 
-AtherKeyring Alpha is intended to work locally on your Android device.
+# Privacidad para Alpha testers
 
-Current public-facing expectation:
+AtherKeyring trabaja con notas e imágenes almacenadas localmente. No requiere una cuenta ni
+un servidor de Ather. Esta alpha no incorpora una bóveda ni cifrado propio en reposo y no debe
+usarse como gestor de contraseñas.
 
-- no Ather cloud account is required;
-- no Ather server is required;
-- tester feedback is submitted voluntarily through GitHub or other public community channels;
-- screenshots/videos are uploaded only when the tester chooses to share them.
+## Permisos que puedes encontrar
 
-## Be careful with screenshots and videos
+| Permiso / acción | Uso |
+| --- | --- |
+| Mostrar sobre otras aplicaciones | Llavero y Mini Office flotantes |
+| Cámara | Fotografía solicitada por el usuario |
+| Captura de pantalla | Consentimiento visible del sistema para una captura nueva |
+| Notificaciones / servicio | Funcionamiento visible de la capa flotante |
+| Selector de carpetas | Exportación a la carpeta elegida por el usuario |
 
-Before posting an image or video, check that it does not show:
+Los informes de GitHub son públicos y voluntarios. Antes de compartir imágenes o vídeos,
+oculta notas privadas, mensajes, notificaciones, cuentas, contraseñas y documentos personales.
+No adjuntes claves de firma, tokens ni registros sensibles.
 
-- private messages;
-- notifications;
-- passwords;
-- email addresses;
-- banking or ID information;
-- personal documents;
-- tokens or recovery codes.
-
-## Bug reports
-
-Bug reports should focus on reproduction steps, device details, app/game compatibility, orientation, haptics, and visible behavior.
-
-Do not include private files, signing material, or sensitive logs.
+[Reportes de seguridad](SECURITY.md) · [Cómo reportar errores](ALPHA_TESTING.md).

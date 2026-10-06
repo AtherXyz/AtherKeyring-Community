@@ -1,3 +1,5 @@
+[Inicio](../README.md) · [Descargar](../DOWNLOAD.md) · [Versiones](../VERSIONS.md)
+
 # Reddit / Community Drafts
 
 These are prepared drafts only. Do not post automatically.

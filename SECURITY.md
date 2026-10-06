@@ -1,3 +1,5 @@
+[Inicio](README.md) · [Descargar](DOWNLOAD.md) · [Instalar](ALPHA_TESTING.md) · [Versiones](VERSIONS.md) · [Reportar un error](https://github.com/AtherXyz/AtherKeyring-Community/issues/new?template=bug_report.yml)
+
 # Security Policy
 
 Security vulnerabilities must not be reported in public Issues or Discussions.

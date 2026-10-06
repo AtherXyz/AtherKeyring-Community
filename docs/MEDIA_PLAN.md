@@ -1,3 +1,5 @@
+[Inicio](../README.md) · [Descargar](../DOWNLOAD.md) · [Versiones](../VERSIONS.md)
+
 # Media Plan
 
 Do not invent or generate fake evidence. Use only real videos provided by the owner.

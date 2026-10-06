@@ -1,3 +1,5 @@
+[Inicio](README.md) · [Descargar](DOWNLOAD.md) · [Instalar](ALPHA_TESTING.md) · [Versiones](VERSIONS.md) · [Reportar un error](https://github.com/AtherXyz/AtherKeyring-Community/issues/new?template=bug_report.yml)
+
 # Credits
 
 ## AtherKeyring
@@ -38,3 +40,10 @@ La contribución humana principal de Ather es:
 - decisiones de producto;
 - pruebas;
 - validación.
+
+## Componentes de esta versión
+
+- Page curl: Harism / android-pagecurl, licencia Apache-2.0.
+- Fuentes EB Garamond, Bad Script y Alex Brush: SIL Open Font License.
+
+Los textos de licencia y avisos se conservan en [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt).

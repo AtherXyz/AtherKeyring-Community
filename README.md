@@ -1,74 +1,36 @@
 # AtherKeyring
 
-**AtherKeyring is an experimental Android floating keychain for games and other apps.**
+Un llavero flotante para Android con una Mini Office para escribir notas y guardar imágenes.
+La interfaz es un libro de cuero y papel: Índice, Notas, Colección, Tienda y Ajustes.
 
-It is designed to sit visually above a game without replacing the game’s native controls. The current Alpha focuses on real-device behavior: overlay stability, physical-feeling movement, camera/screenshot flows, quick notes, and compatibility with different games and phones.
+**Versión actual para Alpha testers: 0.5.0-alpha1 · código 110.**
 
-> ALPHA EXPERIMENTAL: AtherKeyring is incomplete and may contain bugs. Waydroid/emulators help with visual checks, but they do not replace testing on a real phone.
+[**Descargar APK**](https://github.com/AtherXyz/AtherKeyring-Community/releases/download/v0.5.0-alpha1-tester/AtherKeyring_Integracion_0.5.0_alpha1_v110_20261006.apk) · [Notas de esta versión](https://github.com/AtherXyz/AtherKeyring-Community/releases/tag/v0.5.0-alpha1-tester) · [Guía de instalación](ALPHA_TESTING.md)
 
-## Current Alpha features
+## Empieza aquí
 
-- Floating Android keychain overlay.
-- 1 or 2 keychains.
-- Skins and customization.
-- Motion, physics, gravity, and sensors.
-- Camera and screenshot flows.
-- Mini Office for quick notes/photos.
-- Local notes and trash flow.
-- Sounds and haptics.
-- Local-first behavior; no Ather cloud or server is required.
+| Quiero… | Ir a |
+| --- | --- |
+| Instalar o actualizar | [Descarga y requisitos](DOWNLOAD.md) → [Instalación](ALPHA_TESTING.md) |
+| Saber qué cambió | [Cambios](CHANGELOG.md) · [Árbol de versiones](VERSIONS.md) |
+| Probar funciones y avisar de un fallo | [Guía de pruebas](ALPHA_TESTING.md) · [Reportar error](https://github.com/AtherXyz/AtherKeyring-Community/issues/new?template=bug_report.yml) |
+| Consultar límites de la alpha | [Problemas conocidos](KNOWN_ISSUES.md) · [Compatibilidad](COMPATIBILITY.md) |
+| Entender el proyecto | [Mapa del proyecto](PROJECT_MAP.md) · [Créditos](CREDITS.md) |
+| Consultar privacidad o colaborar | [Privacidad](PRIVACY_ALPHA.md) · [Participar](CONTRIBUTING.md) |
 
-## Public Alpha status
+## En esta versión
 
-The source code is private during Alpha. This repository is only the public community hub for:
+- Libro nativo con 29 opciones organizadas en sus menús y 33 páginas iniciales.
+- Notas y Mini Office conectadas al archivo local.
+- Colección, equipamiento para los llaveros A/B y Tienda con créditos de prueba.
+- Accesos a cámara/captura, apariencia, movimiento, sonido, permisos y herramientas tester.
+- Complementos futuros identificados como «Próximamente».
 
-- bug reports;
-- game/app compatibility reports;
-- tester instructions;
-- known issues;
-- ideas and discussions;
-- future public APK release notes.
+Ather ha probado y elegido esta integración como checkpoint. Se publica como **pre-release
+experimental para Alpha testers**; las pruebas en más dispositivos y la corrección de errores continúan.
 
-The APK will only be posted here after a build is explicitly marked:
+**¿Vienes de Alpha 13?** 0.5.0 usa una instalación separada y no importa automáticamente sus notas.
+Si ya tienes integración 109/110, conserva la instalación y sus datos: [tabla de actualización](DOWNLOAD.md).
 
-`PHYSICALLY APPROVED FOR PUBLIC ALPHA`
-
-Until then, release candidates may exist privately for device validation, but they are not public Alpha builds.
-
-## Current candidate status
-
-Latest known private candidate: `0.3.0-alpha8-r2-tester` / `versionCode 46`.
-
-Status: **not physically approved for public Alpha yet**.
-
-## What testers will help with
-
-- Does the overlay stay visible and usable over your game/app?
-- Does it interfere with touch controls?
-- Do camera and screenshot flows work?
-- Do haptics feel good or should they be disabled for your game?
-- Does the Mini Office preserve notes/photos correctly?
-- Does orientation or device movement cause glitches?
-
-## Safety notes
-
-Do not post passwords, tokens, private documents, signing files, keystores, or sensitive screenshots in Issues or Discussions.
-
-Public feedback is currently limited to:
-
-- feedback;
-- bugs;
-- compatibility reports;
-- ideas.
-
-Code contributions are not accepted during this Alpha phase.
-
-## Useful links
-
-- [Alpha Testing Guide](ALPHA_TESTING.md)
-- [Compatibility Guide](COMPATIBILITY.md)
-- [Known Issues](KNOWN_ISSUES.md)
-- [Privacy for Alpha Testers](PRIVACY_ALPHA.md)
-- [Security Policy](SECURITY.md)
-- [Changelog](CHANGELOG.md)
-- [Credits](CREDITS.md)
+El código de la aplicación sigue siendo privado. Este repositorio contiene las descargas,
+guías y canales de feedback públicos. No hay versión iOS descargable actualmente.

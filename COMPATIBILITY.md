@@ -1,3 +1,5 @@
+[Inicio](README.md) · [Descargar](DOWNLOAD.md) · [Instalar](ALPHA_TESTING.md) · [Versiones](VERSIONS.md) · [Reportar un error](https://github.com/AtherXyz/AtherKeyring-Community/issues/new?template=bug_report.yml)
+
 # Compatibility
 
 AtherKeyring is an Android overlay. Compatibility depends on the device, Android version, game/app, orientation, haptics, and how the game handles touch input.
