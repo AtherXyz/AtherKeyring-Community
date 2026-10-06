@@ -8,6 +8,8 @@
 
 | Buscas | Destino |
 | --- | --- |
+| Qué es y por qué existe | [Propósitos y visión](PROPOSITOS.md) |
+| Prioridades y planes futuros | [Roadmap público](ROADMAP.md) |
 | APK actual | [Descargar](DOWNLOAD.md) |
 | APK y archivos por versión | [Releases](https://github.com/AtherXyz/AtherKeyring-Community/releases) · [Árbol de versiones](VERSIONS.md) |
 | Novedades | [Cambios](CHANGELOG.md) |

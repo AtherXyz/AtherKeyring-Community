@@ -15,7 +15,8 @@ La interfaz es un libro de cuero y papel: Índice, Notas, Colección, Tienda y A
 | Saber qué cambió | [Cambios](CHANGELOG.md) · [Árbol de versiones](VERSIONS.md) |
 | Probar funciones y avisar de un fallo | [Guía de pruebas](ALPHA_TESTING.md) · [Reportar error](https://github.com/AtherXyz/AtherKeyring-Community/issues/new?template=bug_report.yml) |
 | Consultar límites de la alpha | [Problemas conocidos](KNOWN_ISSUES.md) · [Compatibilidad](COMPATIBILITY.md) |
-| Entender el proyecto | [Mapa del proyecto](PROJECT_MAP.md) · [Créditos](CREDITS.md) |
+| Entender su propósito y hacia dónde va | [Propósitos y visión](PROPOSITOS.md) · [Roadmap público](ROADMAP.md) |
+| Orientarme entre sus recursos | [Mapa del proyecto](PROJECT_MAP.md) · [Créditos](CREDITS.md) |
 | Consultar privacidad o colaborar | [Privacidad](PRIVACY_ALPHA.md) · [Participar](CONTRIBUTING.md) |
 
 ## En esta versión
