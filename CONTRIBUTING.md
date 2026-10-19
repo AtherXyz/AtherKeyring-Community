@@ -27,7 +27,7 @@ Do not submit:
 
 ## Feedback flow
 
-Read the [project vision](PROPOSITOS.md) and [public roadmap](ROADMAP.md) before proposing a new feature.
+Read the [project vision](PROPOSITOS.md) before proposing a new feature.
 
 Discussion → evaluation → Issue if accepted and delimited → internal roadmap only after owner approval.
 

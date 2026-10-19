@@ -1,4 +1,4 @@
-[Inicio](README.md) · [Roadmap](ROADMAP.md) · [Descargar](DOWNLOAD.md) · [Mapa del proyecto](PROJECT_MAP.md)
+[Inicio](README.md) · [Descargar](DOWNLOAD.md) · [Mapa del proyecto](PROJECT_MAP.md)
 
 # Propósitos y visión
 
@@ -8,8 +8,8 @@ aplicación o jugando. El propósito es acompañar ese momento, con acceso rápi
 y una identidad propia: cuero, papel, instrumentos de escritura y objetos que responden al tacto.
 
 Esta visión fue concebida por **Ather / AtherXyz** y está documentada desde el 14 de septiembre
-de 2026. Esta síntesis incorpora la dirección de producto acordada a **19 de octubre de 2026**;
-la alpha pública sigue siendo la **0.5.0/110**. [Autoría y créditos](CREDITS.md) · [Estado y próximos pasos](ROADMAP.md).
+de 2026. Aquí se resume para la comunidad, contrastada con la alpha disponible a **6 de octubre
+de 2026**. [Autoría y créditos](CREDITS.md) · [Versiones publicadas](VERSIONS.md).
 
 ## Un libro personal, abierto desde un llavero
 
@@ -21,26 +21,16 @@ La personalización forma parte de esa experiencia. Llaveros, cadenas e instrume
 deben tener una función comprensible y conservar las elecciones del usuario. La apariencia de
 libro debe ayudar a orientarse y utilizar las herramientas.
 
-## Líneas de producto y evolución de la visión
+## Las mini oficinas de la visión original
 
 | Línea | Para qué se concibe | Situación actual |
 | --- | --- | --- |
 | **Momentos** | Reunir imágenes y palabras para conservar recuerdos y pequeñas historias personales. | La alpha ya permite trabajar con notas, imágenes, cámara y captura. Voz, etiquetas y relatos asistidos son ampliaciones futuras. |
-| **Gamer** | Una consola GBA independiente, con su propio motor, conectada desde el artículo Instancia Gamer; posteriormente, un taller de mods y creación con IA. | Dirección aprobada pendiente de implementación. Los ajustes generales actuales de sonido, movimiento y hápticos no equivalen a esta segunda app. |
+| **Gamer** | Una mini oficina dedicada a ajustes de experiencia durante el juego, como sonidos y respuesta háptica. | Existen ajustes generales de sonido, movimiento y hápticos experimentales; una sala Gamer dedicada queda fuera de la beta funcional prevista. |
 | **Audiovisual** | Acceder desde los llaveros a herramientas creativas relacionadas con imágenes y edición. | Idea de expansión; herramientas y alcance por definir. No está disponible. |
 
 Estas líneas describen la intención a largo plazo. No son tres módulos completos incluidos
 en la descarga actual.
-
-La propuesta Gamer evoluciona desde la mini oficina original hacia una **segunda app con
-desarrollo independiente**. Instancia Gamer combinará nuevos hápticos y un acceso para
-descargar o abrir la consola. Los efectos se trabajarán primero en el llavero y después en
-los controles de la consola; el artículo completo se venderá cuando sus beneficios y el
-reconocimiento de la compra entre apps estén disponibles.
-
-La beta comercial de AtherKeyring podrá avanzar antes. Las funciones básicas existentes
-conservarán su acceso. La creación de juegos y las modificaciones mediante IA se investigarán
-por casos concretos; modificar cualquier juego sigue siendo una aspiración.
 
 ## Cómo debería crecer Momentos
 
@@ -71,10 +61,8 @@ inventar personas, lugares o sucesos ni sustituir silenciosamente lo escrito.
 ## Participar en esa dirección
 
 La prioridad actual es consolidar la integración **0.5.0 Alpha 1**, corregir errores y recoger
-pruebas de uso real. El [roadmap por misiones](ROADMAP.md) separa la beta funcional, la
-preparación comercial y el desarrollo de la consola. La Tienda actual utiliza créditos de
-prueba; el catálogo comercial concreto, los precios y las fechas siguen pendientes.
+pruebas de uso real. La Tienda utiliza créditos de prueba; el modelo comercial sigue pendiente
+de definición y no hay fechas ni precios anunciados para las ampliaciones.
 
 Puedes [probar la alpha](ALPHA_TESTING.md), consultar sus [límites conocidos](KNOWN_ISSUES.md)
 o compartir una idea en [Discussions](https://github.com/AtherXyz/AtherKeyring-Community/discussions).
-El [roadmap](ROADMAP.md) explica las prioridades y qué falta para avanzar.

@@ -15,7 +15,7 @@ La interfaz es un libro de cuero y papel: Índice, Notas, Colección, Tienda y A
 | Saber qué cambió | [Cambios](CHANGELOG.md) · [Árbol de versiones](VERSIONS.md) |
 | Probar funciones y avisar de un fallo | [Guía de pruebas](ALPHA_TESTING.md) · [Reportar error](https://github.com/AtherXyz/AtherKeyring-Community/issues/new?template=bug_report.yml) |
 | Consultar límites de la alpha | [Problemas conocidos](KNOWN_ISSUES.md) · [Compatibilidad](COMPATIBILITY.md) |
-| Entender su propósito y seguir las misiones | [Propósitos y visión](PROPOSITOS.md) · [Roadmap con checks](ROADMAP.md) |
+| Entender el proyecto | [Propósitos y visión](PROPOSITOS.md) |
 | Orientarme entre sus recursos | [Mapa del proyecto](PROJECT_MAP.md) · [Créditos](CREDITS.md) |
 | Consultar privacidad o colaborar | [Privacidad](PRIVACY_ALPHA.md) · [Participar](CONTRIBUTING.md) |
 
@@ -29,10 +29,6 @@ La interfaz es un libro de cuero y papel: Índice, Notas, Colección, Tienda y A
 
 Ather ha probado y elegido esta integración como checkpoint. Se publica como **pre-release
 experimental para Alpha testers**; las pruebas en más dispositivos y la corrección de errores continúan.
-
-El [roadmap por misiones](ROADMAP.md) recoge el camino hacia la beta funcional y comercial,
-además de la futura consola GBA independiente conectada mediante Instancia Gamer.
-La consola y ese artículo aún están pendientes; la prioridad actual es asegurar las notas.
 
 **¿Vienes de Alpha 13?** 0.5.0 usa una instalación separada y no importa automáticamente sus notas.
 Si ya tienes integración 109/110, conserva la instalación y sus datos: [tabla de actualización](DOWNLOAD.md).

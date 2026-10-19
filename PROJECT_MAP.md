@@ -9,7 +9,6 @@
 | Buscas | Destino |
 | --- | --- |
 | Qué es y por qué existe | [Propósitos y visión](PROPOSITOS.md) |
-| Misiones, checks y planes futuros | [Roadmap público](ROADMAP.md) |
 | APK actual | [Descargar](DOWNLOAD.md) |
 | APK y archivos por versión | [Releases](https://github.com/AtherXyz/AtherKeyring-Community/releases) · [Árbol de versiones](VERSIONS.md) |
 | Novedades | [Cambios](CHANGELOG.md) |
@@ -26,8 +25,3 @@ no necesitas acceso al código ni a documentos internos para descargar o reporta
 
 Android es la plataforma disponible. iOS sigue en desarrollo y no tiene IPA/TestFlight descargable.
 Los nombres antiguos y prototipos pertenecen al historial; no son otra descarga recomendada.
-
-La futura **consola GBA será otra app, con su propio motor y seguimiento independiente**.
-El artículo Instancia Gamer conectará AtherKeyring con su descarga o apertura y nuevos
-hápticos, una vez disponibles sus beneficios y la validación de compra entre apps.
-Su desarrollo figura en el [roadmap](ROADMAP.md); todavía no hay una descarga anunciada.
